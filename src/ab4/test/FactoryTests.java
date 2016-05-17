@@ -12,7 +12,7 @@ import ab4.CRClientB;
 import ab4.ClientFactory;
 import ab4.DHClientA;
 import ab4.DHClientB;
-import ab4.impl.Nachnamen.ClientFactoryImpl;
+import ab4.impl.feistritzer_weinberger.ClientFactoryImpl;
 
 public class FactoryTests {
 	

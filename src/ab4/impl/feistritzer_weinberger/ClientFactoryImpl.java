@@ -1,4 +1,4 @@
-package ab4.impl.Nachnamen;
+package ab4.impl.feistritzer_weinberger;
 
 import ab4.CRClientA;
 import ab4.CRClientB;

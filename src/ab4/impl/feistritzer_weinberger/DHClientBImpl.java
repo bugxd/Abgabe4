@@ -1,4 +1,4 @@
-package ab4.impl.Nachnamen;
+package ab4.impl.feistritzer_weinberger;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;
