@@ -16,11 +16,6 @@ public class DHClientAImpl implements ab4.DHClientA {
     private BigInteger SecretValue;
     private BigInteger PartOfSecret;
 
-    public DHClientAImpl(){
-        super();
-        this.SecretValue = generatePrime(Prime.bitLength() - 1);
-    }
-
     @Override
     public void setBitLength(int n) {
         this.BitLength = n;
@@ -41,7 +36,7 @@ public class DHClientAImpl implements ab4.DHClientA {
     //A = g^a b mod p
     @Override
     public BigInteger sendPartOfSecret() {
-
+        SecretValue = generatePrime(Prime.bitLength() - 1);
         return Generator.modPow(SecretValue,Prime);
     }
 
