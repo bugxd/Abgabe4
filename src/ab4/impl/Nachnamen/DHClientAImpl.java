@@ -15,7 +15,7 @@ public class DHClientAImpl implements ab4.DHClientA {
     private BigInteger Generator;
     private BigInteger SecretValue;
     private BigInteger PartOfSecret;
-    
+
     public DHClientAImpl(){
         super();
         this.SecretValue = generatePrime(Prime.bitLength() - 1);
