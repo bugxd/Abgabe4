@@ -10,14 +10,12 @@ public class ClientFactoryImpl implements ClientFactory {
 
 	@Override
 	public CRClientA generateCRClientA() {
-		// TODO Auto-generated method stub
-		return null;
+		return new CRClientAImpl();
 	}
 
 	@Override
 	public CRClientB generateCRClientB() {
-		// TODO Auto-generated method stub
-		return null;
+		return new CRClientBImpl();
 	}
 
 	@Override
